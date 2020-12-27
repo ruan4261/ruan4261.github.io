@@ -14,7 +14,7 @@
 ```
 
 ### 流程
-1. fork我的[博客仓库](https://github.com/ruan4261/ruan4261.github.io/)
+1. fork我的[博客仓库](https://github.com/ruan4261/ruan4261.github.io/), github现在好像是支持在线修改的, 可以用gitpod之类的修改然后直接pr
 2. 将你的信息根据上述格式append到src目录下的friend_link.yml中
 3. 向我的博客仓库的master分支提交pull request
 4. 请注意及时在您的友链页面加上我哦^. ^
