@@ -1,0 +1,68 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="<%= config.keywords %>" />
+  <meta name="author" content="<%= config.author %>" />
+  <meta name="description" content="<%= config.description %>" />
+  <% if(is_home()){ %>
+    <meta name="robots" content="noindex" />
+  <% } %>
+  <%
+    var title = page.title;
+
+    if (is_archive()){
+      title = 'Archive';
+    } else if (is_category() || title === "categories"){
+      if (page.category){
+        title = page.category
+      } else {
+        title = "Category"
+      }
+    } else if (is_tag() || title === "tags"){
+      if (page.tag){
+        title = page.tag
+      } else {
+        title = "Tag"
+      }
+    }
+  %>
+  <title>
+    <% if (title) { %>
+      <%= __(title) %>
+      |
+    <% } %>
+     <%= config.title %>
+  </title>
+
+  <% if (theme.favicon.enable){ %>
+    <link rel="apple-touch-icon" href="<%- theme.favicon.touch_icon %>">
+    <link rel="icon" href="<%- theme.favicon.icon %>">
+  <% } %>
+
+  <!-- Raleway-Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- hexo site css -->
+  <%- css(['/css/base.css', '/iconfont/iconfont.css', '/css/github-markdown.css', '/css/highlight.css']) %>
+
+  <!-- jquery3.3.1 -->
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- fancybox -->
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <script async src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+  <%- js(['/js/fancybox.js']) %>
+
+  <% if(theme.gtag.enable) { %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<%- theme.gtag.gtagkey %>"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '<%- theme.gtag.gtagkey %>');
+    </script>
+  <% } %>
+
+</head>
