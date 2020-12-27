@@ -25,6 +25,8 @@ type: "about"
 - [Linkedin](https://linkedin.com/in/ruan4261)
 - [Patreon](https://www.patreon.com/ruan4261)
 
+~~***珍稀物种, 极少出没***~~
+
 ### Contact
 
 - Email: <i@4261.ink>

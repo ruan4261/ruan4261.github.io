@@ -23,14 +23,14 @@
   <!-- 朋友页 url形式：https://yoursite/friends/ -->
   <div class="container friend-index">
     <div class="friend-list">
-      <% for(let friend of theme.friends) { %>
+      <% for(let friend of site.data._friendlink.friends) { %>
         <div class="friend-list-item">
-          <span class="nickname">@ <%- friend.nickname %></span>
+          <span class="nickname">@ <%- friend.title %></span>
           <a href="<%- friend.site %>" target="_blank">
             <span class="site-path"><%- friend.site %></span>
           </a>
           <p class="card-meta">
-            <%- friend.meta %>
+            <%- friend.desc %>
           </p>
         </div>
       <% } %>

@@ -1,0 +1,46 @@
+friends:
+# 说明
+#-
+#  name: # 你如何称呼
+#  title: # 博客名称, 用于展示
+#  site: # 博客链接
+#  desc: # 博客描述
+#  email: # 你的邮箱(可选, 因为我的仓库是公开的, 你的邮箱也会被其他查看该仓库的人发现)
+#  # 以下配置暂时被忽略
+#  avatar: # 头像链接, 用于展示
+#  # 你可以通过注释来描述自己
+  -
+    name: Souta
+    title: 小太の游乐园
+    site: https://713.moe/
+    desc: 一个热爱ACG的技术宅大佬
+    email: i@713.moe
+  -
+    name: 七夏浅笑
+    title: 七夏浅笑
+    site: https://www.julydate.com/
+    desc: 七月之约，夏末浅笑
+    email: i@xhtml.love
+  -
+    name: 月月月子喵
+    title: 月月月子喵
+    site: https://haozi.moe/
+    desc: haoziの窝
+    email: i@haozi.moe
+  -
+    name: 宅日记
+    title: 宅日记
+    site: https://crosschannel.cc/
+    desc: 一个不知名懒肥宅的自留地
+
+# 复制该模板然后在此段文字上方增加你的信息哦
+template:
+  -
+    name:
+    title:
+    site:
+    desc:
+    email:
+    # 以下配置暂时被忽略
+    avatar:
+    # 你可以通过注释来描述自己

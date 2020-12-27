@@ -111,27 +111,12 @@ catalog:
 prevnext:
   enable: true
 
+# 该配置被弃用, 转移到外部
 # 友链详细信息：支持多个友链
 friends:
   # nickname: 昵称
   # site: 地址
   # meta: 描述
-  -
-    nickname: 小太の游乐园
-    site: https://713.moe/
-    meta: 一个热爱ACG的技术宅大佬
-  -
-    nickname: 七夏浅笑
-    site: https://www.julydate.com/
-    meta: 七月之约，夏末浅笑
-  -
-    nickname: 月月月子喵
-    site: https://haozi.moe/
-    meta: haoziの窝
-  -
-    nickname: 宅日记
-    site: https://crosschannel.cc/
-    meta: 一个不知名懒肥宅的自留地
 
 # 页脚信息
 footer:
