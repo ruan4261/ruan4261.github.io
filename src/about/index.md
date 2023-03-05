@@ -6,24 +6,24 @@ type: "about"
 
 ## About me
 
-この現実世界には穴がある。そして……ドーナツにも。
+原Java开发工程师, 20年参与工作, 现摸鱼中
 
-原Java开发工程师, 20年参与工作, 现灵活就业中
+この現実世界には穴がある。そして……ドーナツにも。- ZOE
+
+共に進むとはそういうことじゃないだろう？易しい道に一人分の幅しかないのであれば、私は喜んで茨の道でも歩んでみせる。- 桜小路 ルナ
 
 ### Information
 
-- Hobby: anime, comic, game
-- Job: Java Developer
+- Favor: Neptunia series - COMPILE HEART, 月に寄りそう乙女の作法 series - Navel
 - Base: Nanjing, China
 
 ### Social & etc.
 
 - [Twitter](https://twitter.com/ruan4261)
-- [Github](https://github.com/ruan4261)
 - [Leetcode-cn](https://leetcode-cn.com/u/ruan4261)
-- [Stackoverflow](https://stackoverflow.com/users/14557839/ruan4261)
 - [Linkedin](https://linkedin.com/in/ruan4261)
 - [Patreon](https://www.patreon.com/ruan4261)
+- [Bilibili](https://space.bilibili.com/23934967)
 
 ~~***珍稀物种, 极少出没***~~
 
@@ -31,9 +31,8 @@ type: "about"
 
 - Email: i#4261.ink
 
-### Notice
+### Find My Post
 
-整个网站挂载在<https://github.com/ruan4261/ruan4261.github.io>中，完全使用cloudflare做CDN加速，所以墙内可能偶尔会访问不了。  
-如果需要，你可以在以下地方查找我的博客post的原生markdown文件
 1. [GitHub Page Repo](https://github.com/ruan4261/ruan4261.github.io)
 2. [GitHub Gist](https://gist.github.com/ruan4261)
+3. [Cacher App](https://snippets.cacher.io/user/ruan4261)
