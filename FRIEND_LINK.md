@@ -16,8 +16,8 @@
 ### 流程
 1. fork 我的[博客仓库](https://github.com/ruan4261/ruan4261.github.io/)
 2. 将你的信息根据上述格式 append 到`/src/_data/_friendlink.yml`文件中
-3. 向我的博客仓库的 master 分支提交 pull request
-4. 请注意及时在您的友链页面加上我哦^. ^
+3. 向我博客仓库的 master 分支提交 pr
+4. 及时在您的友链页面加上我^. ^
 
 ### 我的信息
 ```yaml
@@ -28,7 +28,7 @@
   desc: この現実世界には穴がある。そして……ドーナツにも。
   email: i@4261.ink
   avatar: https://4261.ink/images/avatar.png
-  # 江苏人, 山西血统, 喜欢面食或苏菜
-  # Java工程师出身, 工作经验2020年起, 学历短板, 目前base南京, 以前在主板上市ToB传统软件公司, 现寻找机会中
-  # 厨近月(Navel)和海王星(地雷社), 目前持续在玩绯染天空Heaven Burns Red(WFS&Key), LOL水平比较业余只和朋友开黑
+  # 江苏人, 山西血统, 喜欢面食, 苏菜
+  # JavaWeb工程师出身
+  # 厨近月(Navel)和海王星(地雷社), 目前在玩绯染天空Heaven Burns Red(WFS&Key), LOL水平业余
 ```
