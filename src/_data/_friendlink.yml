@@ -32,11 +32,6 @@ friends:
     title: 宅日记
     site: https://crosschannel.cc/
     desc: 一个不知名懒肥宅的自留地
-  -
-    name: 卡拉云
-    title: 卡拉云
-    site: https://kalacloud.com/
-    desc: 低代码开发工具
 
 # 复制该模板然后在此段文字上方增加你的信息哦
 template:
